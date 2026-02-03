@@ -4,4 +4,4 @@ m = (int(input("Ingrese lso años: ")))
 for s in range(1, m+1):
     interes = capital* I
     capital= capital + interes
-    print(f"año {s} el capitals es ${capital:,.2f}")
+    print(f"año {s} el capitals es ${capital:,.0f}")
