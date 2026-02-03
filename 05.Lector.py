@@ -12,3 +12,5 @@ for letra in frase:
         cantidad_a = cantidad_a + 1
 
 print(f"La letra 'a' se repite {cantidad_a} veces en tu frase.")
+# .cound () Busca palabras
+# . find() buscar
