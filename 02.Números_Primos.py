@@ -1,8 +1,3 @@
-# for l1 in range (2,1001):
-#     if l1 == 2 or l1 == 3 or l1 ==5 or l1== 7:
-#         print(l1)
-#     elif l1 % 2 != 0 and l1 % 3 != 0 and l1 % 5 !=0 and l1 % 7 != 0:
-#         print (l1)
 def construir_cadena(max):
     cad = ""
     for i in range(2, max+1):
@@ -26,8 +21,15 @@ MAX = 1000
 str = construir_cadena(MAX)
 for snum in str.split(","):
     new_str= quitar_cadena(str, snum)
-    if len(new_str) == len(str): 
-        break # pare si no hay cambios
+    if len(new_str) == len(str):
+        break
     str = new_str
 
 print(str)
+
+#ERRORES
+# for l1 in range (2,1001):
+#     if l1 == 2 or l1 == 3 or l1 ==5 or l1== 7:
+#         print(l1)
+#     elif l1 % 2 != 0 and l1 % 3 != 0 and l1 % 5 !=0 and l1 % 7 != 0:
+#         print (l1)
